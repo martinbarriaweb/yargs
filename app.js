@@ -1,7 +1,14 @@
 const { createFile } = require('./multiply/multiply');
 
-let base = 'asd';
  
+
+let argv = process.argv;
+let parameter = argv[2];
+let base = parameter.split('=')[1];
+
+console.log(base);
+
+
 
 
 createFile(base)
