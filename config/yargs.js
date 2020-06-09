@@ -1,3 +1,5 @@
+const colors = require('colors'); 
+
 
 const opts = {
     base: {
